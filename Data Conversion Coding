@@ -11,11 +11,9 @@ public class dataConversion1 {
         float f = 5.67f;
         double d = .1234;
  
-        // The Expression
+
         double result = (f * b) + (i / c) - (d * s);
- 
-        // Printing the result obtained after
-        // all the promotions are done
+
         System.out.println("result = " + result);
 	}
 
