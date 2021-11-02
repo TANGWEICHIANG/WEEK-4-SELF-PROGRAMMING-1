@@ -1,0 +1,24 @@
+package SelfProgramming;
+
+public class forStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int turn;
+		
+		System.out.println("Emcee: Welcome to SQUID GAME YOROBUN!");
+		System.out.println("Emcee: In the 1st game, we're gonna play the 'RED LIGHT, GREEN LIGHT!' ");
+		System.out.println("Emcee: The game rule is easy, yorobun is gonna move when the doll is facing backwards,"
+				+ "try and not to move when the dolls turn.");
+		System.out.println("Emcee: HOPE YOU GUYS READY :)");
+		System.out.println("DOLLS: mugunghwa kochi pieotsumnida!\n");
+		
+		for(turn = 1; turn <= 5; turn = turn + 1)
+			System.out.println("*DOLLS turn in " + turn +"*");
+		
+		System.out.println("\n*DOLLS turned, begin to scan*");
+		System.out.println("DOLLS: Player 841 moved, begin to EXECUTED");
+		System.out.println("*Player 841 received a death penalty*");
+	}
+
+}
