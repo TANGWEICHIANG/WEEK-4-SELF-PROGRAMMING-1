@@ -8,6 +8,11 @@ public class forCountdown {
 		
 		for(countdown = 10; countdown > -1; countdown = countdown - 1)
 			System.out.println(countdown + "\n");
+		
+		int number;
+		
+		for(number = 0; number <= 16; number = number + 2)
+			System.out.println("The current number is:" + number);
 	}
 
 }
