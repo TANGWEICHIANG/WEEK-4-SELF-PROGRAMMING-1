@@ -1,0 +1,25 @@
+package SelfProgramming;
+
+public class loopingA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inches, counter = 0;
+		double feet;
+		
+		for(inches = 1; inches <= 20; inches++)
+		{
+			feet = inches/12.0;
+			System.out.println(inches + "inches is equal to" + feet + " feet.");
+			
+			counter ++;
+			
+			if(counter == 3)
+			{
+				System.out.println();
+				counter = 0;
+			}
+		}
+	}
+
+}
